@@ -11,5 +11,4 @@ public abstract class Human {
     private String sex;
     private String footsize;
 
-
 }
