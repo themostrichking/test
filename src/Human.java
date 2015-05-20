@@ -9,7 +9,8 @@ public abstract class Human {
     private List<Human> kids;
     private String docName;
     private String sex;
-
+    private String footsize;
+    
     public int getAge() {
         return age;
     }
@@ -54,6 +55,12 @@ public abstract class Human {
     }
     public String getSex() {
         return sex;
+    }
+    public String getFootsize() {
+        return footsize;
+    }
+    public void setFootsize(String footsize) {
+        this.footsize = footsize;
     }
 
 }
