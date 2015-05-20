@@ -9,7 +9,7 @@ public abstract class Human {
     private List<Human> kids;
     private String docName;
     private String sex;
-    private String footsize;
+
     public int getAge() {
         return age;
     }
